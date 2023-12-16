@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#weather-container {
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.47);
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.556);
+ 
+}
+
+#name {
+    color: #333;
+}
+
+#location-form {
+    margin-top: 20px;
+}
+
+
+#location-input {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    
+}
+
+button {
+    background-color: #4caf4f;
+    color: #fff;
+     padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+
+button:hover {
+    background-color: #45a049a0;
+
+}
+
+#weather-data {
+    margin-top: 20px;
+    color: #333;
+
+}
